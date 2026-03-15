@@ -6,20 +6,24 @@ import { Footer } from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'CUBILE PROP FUND',
   description:
-    'CUBILE PROP FUND is an institutional quantitative investment firm focused on systematic derivatives strategies, volatility-based portfolio frameworks, and disciplined risk management.'
+    'CUBILE PROP FUND is an institutional quantitative investment firm focused on systematic derivatives strategies, volatility-based portfolio frameworks, and disciplined risk management.',
+  viewport: 'width=device-width, initial-scale=1'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="dark">
-      <body className="bg-[#0b0b0b] text-white">
+      <body className="bg-[#0b0b0b] text-white antialiased overflow-x-hidden">
         <div className="min-h-screen flex flex-col">
           <Navbar />
-          <main className="flex-1 pt-20 pb-16">{children}</main>
+
+          <main className="flex-1 pt-20 pb-16 px-4 sm:px-6 lg:px-8">
+            {children}
+          </main>
+
           <Footer />
         </div>
       </body>
     </html>
   );
 }
-

@@ -21,7 +21,7 @@ const data = Array.from({ length: 48 }).map((_, idx) => {
 
 export function EquityChart() {
   return (
-    <div className="h-64">
+    <div className="w-full h-[260px] sm:h-[320px]">
       <ResponsiveContainer width="100%" height="100%">
         <LineChart data={data} margin={{ left: -28, right: 0, top: 8, bottom: 0 }}>
           <CartesianGrid stroke="#1f2937" strokeDasharray="3 3" vertical={false} />
