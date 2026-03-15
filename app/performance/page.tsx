@@ -46,12 +46,12 @@ export default function PerformancePage() {
 
               <div className="flex justify-between">
                 <dt className="text-neutral-500">Net Profit</dt>
-                <dd>21,113,834</dd>
+                <dd>2,11,13,834</dd>
               </div>
 
               <div className="flex justify-between">
                 <dt className="text-neutral-500">Max Drawdown</dt>
-                <dd>-1,403,303</dd>
+                <dd>-14,03,303</dd>
               </div>
 
               <div className="flex justify-between">
@@ -61,7 +61,7 @@ export default function PerformancePage() {
 
               <div className="flex justify-between">
                 <dt className="text-neutral-500">Expectancy</dt>
-                <dd>197,325</dd>
+                <dd>1,97,325</dd>
               </div>
             </dl>
           </div>
@@ -87,12 +87,12 @@ export default function PerformancePage() {
 
               <div className="flex justify-between">
                 <dt className="text-neutral-500">Net Profit</dt>
-                <dd>11,766,371</dd>
+                <dd>1,17,66,371</dd>
               </div>
 
               <div className="flex justify-between">
                 <dt className="text-neutral-500">Max Drawdown</dt>
-                <dd>-629,036</dd>
+                <dd>-6,29,036</dd>
               </div>
 
               <div className="flex justify-between">
@@ -102,7 +102,7 @@ export default function PerformancePage() {
 
               <div className="flex justify-between">
                 <dt className="text-neutral-500">Expectancy</dt>
-                <dd>109,966</dd>
+                <dd>1,09,966</dd>
               </div>
             </dl>
           </div>
@@ -149,12 +149,6 @@ export default function PerformancePage() {
               </div>
 
             </dl>
-
-            <p className="pt-2 text-xs text-neutral-500">
-              Higher moment statistics and regression analytics are used to evaluate
-              portfolio robustness across changing volatility regimes.
-            </p>
-
           </div>
 
         </div>
