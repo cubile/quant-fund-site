@@ -17,7 +17,7 @@ export function Navbar() {
           href="/"
           className="text-xs font-semibold uppercase tracking-[0.35em] text-neutral-300 hover:text-white transition-colors"
         >
-          Quantitative Research Fund
+          CUBILE PROP FUND
         </Link>
         <div className="hidden items-center gap-8 text-sm text-neutral-300 sm:flex">
           {navItems.map((item) => (

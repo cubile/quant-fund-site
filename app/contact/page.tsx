@@ -8,13 +8,11 @@ export default function ContactPage() {
           Investor contact
         </p>
         <h1 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
-          Connect regarding the quantitative derivatives program.
+          Investor & Partnership Inquiries
         </h1>
         <p className="max-w-2xl text-sm leading-relaxed text-neutral-400">
-          This website is for informational purposes only and does not constitute an offer to sell
-          or a solicitation of an offer to buy any security. If you are a qualified or
-          institutional investor interested in learning more, please share your contact details
-          below.
+          This page is intended for professional investors, partners, and collaborators seeking
+          additional information about the Cubile Prop Fund&apos;s systematic derivatives program.
         </p>
       </header>
 

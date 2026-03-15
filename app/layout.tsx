@@ -4,9 +4,9 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Systematic Quantitative Investment Research',
+  title: 'CUBILE PROP FUND',
   description:
-    'Institutional quantitative investment firm focused on systematic derivatives strategies, volatility-based portfolio frameworks, and disciplined risk management.'
+    'CUBILE PROP FUND is an institutional quantitative investment firm focused on systematic derivatives strategies, volatility-based portfolio frameworks, and disciplined risk management.'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

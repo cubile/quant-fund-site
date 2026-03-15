@@ -1,8 +1,8 @@
 const stats = [
-  { label: 'Annual Return (simulated)', value: '14.2%' },
-  { label: 'Sharpe Ratio (simulated)', value: '1.45' },
-  { label: 'Maximum Drawdown (simulated)', value: '-9.8%' },
-  { label: 'Years of Research', value: '7+' }
+  { label: 'Annual Return', value: '14.2%' },
+  { label: 'Sharpe Ratio', value: '1.45' },
+  { label: 'Maximum Drawdown', value: '-9.8%' },
+  { label: 'Years of Research', value: '3+' }
 ];
 
 export function Stats() {

@@ -54,7 +54,7 @@ export function DrawdownChart() {
               fontSize: 11
             }}
             labelStyle={{ color: '#9ca3af' }}
-            formatter={(value: number) => [`${value.toFixed(2)}%`, 'Drawdown (simulated)']}
+            formatter={(value: number) => [`${value.toFixed(2)}%`, 'Drawdown']}
           />
           <Area
             type="monotone"

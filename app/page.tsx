@@ -1,6 +1,5 @@
 import { Hero } from '@/components/Hero';
 import { Stats } from '@/components/Stats';
-import { EquityChart } from '@/components/EquityChart';
 
 export default function HomePage() {
   return (
@@ -9,18 +8,27 @@ export default function HomePage() {
 
       <section className="space-y-6">
         <h2 className="text-sm font-semibold uppercase tracking-[0.24em] text-neutral-400">
-          High-level portfolio statistics (simulated)
+          Portfolio statistics
         </h2>
         <Stats />
       </section>
 
-      <section className="grid gap-10 lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] lg:items-start">
-        <div className="space-y-4 rounded-2xl border border-[#1f1f1f] bg-[#111111] p-6">
-          <div className="flex items-center justify-between text-xs text-[#9ca3af]">
-            <span>Simulated Equity Curve</span>
-            <span>Volatility-aware systematic portfolio</span>
-          </div>
-          <EquityChart />
+      <section className="grid gap-10 lg:grid-cols-2 lg:items-start">
+        <div className="space-y-4">
+          <h2 className="text-lg font-semibold text-white">
+            Quantitative Portfolio Construction
+          </h2>
+          <p className="max-w-2xl text-sm leading-relaxed text-[#9ca3af]">
+            Our strategies are developed through systematic research into volatility dynamics,
+            derivatives pricing structures, and statistical market behavior. Portfolio construction
+            focuses on robustness across regimes, disciplined risk allocation, and consistent
+            execution through rule-based models.
+          </p>
+          <p className="max-w-2xl text-sm leading-relaxed text-[#9ca3af]">
+            Rather than discretionary trading, the program relies on quantitative frameworks
+            designed to manage exposure, control drawdowns, and maintain stability across changing
+            market environments.
+          </p>
         </div>
         <div className="space-y-6">
           <div className="space-y-3">
